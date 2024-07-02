@@ -137,6 +137,15 @@ form:hover .fa {
     transform: scale(1.4); /* Scale up the image slightly on hover */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
 }
+.ratangle{
+    position: absolute;
+    width:600px;
+    height: 600px;
+    left:900px ;
+    rotate: 45deg;
+    border-radius: 50px;
+    background-color: white;
+}
 
 
 
@@ -153,6 +162,16 @@ form:hover .fa {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.detail{
+    margin-right: 200px; 
+    position: relative;
+    top: -40px;
+    
+}
+.detail:hover{
+    background-color:bisque;
+
+}
 
 
 .card {
@@ -181,7 +200,7 @@ form:hover .fa {
 }
 
 h5{
-    text-align: start;
+    text-align: center;
 }
 h4{
     margin-top: -40px;
@@ -203,42 +222,46 @@ h4{
     text-decoration: underline; /* Underline on hover */
 }
 
-
-
-.footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
+.footer-item {
+    background-color: #c4ced7;
+    padding: 20px;
 }
 
-.footer .img-footer img {
+.footer-item img {
     max-width: 100%;
     height: auto;
 }
 
-.footer .logo-footer img {
-    max-width: 100px;
-    height: auto;
+.heading-img {
+    text-align: center;
 }
 
-.footer .social-icons a {
+.heading-logo img {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-left: 100px;
     margin: 0 10px;
     color: #333;
+    font-size: 24px;
     transition: color 0.3s;
 }
 
-.footer .social-icons a:hover {
-    color: #0056b3;
+.social-icons a:hover {
+    color: #007bff;
 }
 
-.footer-inner {
+.company-copy {
+    text-align: center;
     margin-top: 20px;
 }
-.ratangle{
-    position: absolute;
-    width:600px;
-    height: 600px;
-    left:900px ;
-    rotate: 45deg;
-    border-radius: 50px;
-    background-color: white;
-}
+
+
+
